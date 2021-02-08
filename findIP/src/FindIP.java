@@ -11,6 +11,6 @@ public class FindIP {
     public static void main(String[] args) throws Exception {
         InetAddress addr = InetAddress.getLocalHost();
         SaveAndRead saveAndRead = new SaveAndRead();
-        saveAndRead.save("README.md",addr.getHostAddress());
+        saveAndRead.save("README.md","http://"+addr.getHostAddress());
     }
 }
