@@ -1,7 +1,5 @@
+ipconfig /all > README.md
 
-ipconfig /all >> a.txt
-
-
-ping tencent.com >> a.txt
-
-pause
+git add --all
+git commit -m README.md
+git push
